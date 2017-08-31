@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+
+}
+
+h1	{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar {
+	top: 0;
+    z-index: 100;
+  	position: fixed;
+    width: 100%;
+    float:left;
+
+}
+
+h1 p{
+
+	
+}

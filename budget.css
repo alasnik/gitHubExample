@@ -1,0 +1,62 @@
+
+body, html {
+    height: 100%;
+}
+
+html,body{ 
+	background-color: gainsboro;
+  	position: absolute;
+  	margin: 20px;
+  	padding: 0;
+  	left: 10px;
+ 	 top: 10px;
+  	bottom: 10px;
+  	right: 10px;
+  	overflow: hidden; /* or auto or scroll */
+
+}
+
+
+
+h1 {
+	text-align: center;
+
+}
+
+p:hover, h2:hover, a:hover {
+    background-color: yellow;
+}
+
+table {
+	background-color: azure;
+ 	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    text-align: center;
+   	box-sizing: border-box;
+	border: solid black 1px;
+	padding-top: 20px;
+  	padding-right: 20px;
+  	padding-bottom: 20px;
+  	padding-left: 20px;
+}
+
+
+.#category1 #category2 {
+	padding-right: 5%;
+
+}
+
+#progressbar {
+  background-color: black;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  margin-top: 10px;
+  padding: 3px;
+}
+
+#progressbar > div {
+   background-color: orange;
+   width: 20%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+
+}
+
+p a {
+	color: red;
+}
+
+/*this is how you select classes*/
+.testimonial {
+	background-color: blue
+
+	}
+/*this is how you select id's*/
+#Douglas {
+		color: yellow;
+
+}
+
+ul  li {
+	display: inline-block;
+
+}

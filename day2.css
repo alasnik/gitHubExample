@@ -1,0 +1,76 @@
+
+body {
+    background-color: lightblue;
+}
+
+
+p{
+	border: solid blue 5px;
+	border-style: double;
+	margin-top: 100px;
+	margin-right: 50px;
+	margin-bottom: 75px;
+	margin-left: 100px;
+	position: center;
+
+}
+
+.navbar {
+	top: 0;
+    z-index: 100;
+  	position: fixed;
+    width: 100%;
+}
+
+.header p {
+	position: center;
+	height: 100px;
+	margin: 30px 30px 30px 30px;
+	padding: 100px 20px 20px 20px;
+	border: 5px solid green;
+}
+
+h1 {
+    margin: 0 0 50px 0;
+    position: center
+}
+
+div{
+	position: absolute;
+	height: 200px;
+}
+
+#inside {
+	height: 200px;
+	width: 120px;
+	border: solid red 10px;
+	position: relative;
+}
+
+#outside {
+	height: 300px;
+	width: 300px;
+	border: solid blue 10pc;
+	position: relative;
+
+}
+
+img {
+  	position: static;
+	float:right;
+	margin-left: 500px;
+	width: 420px;
+	height: 240px;
+	border: 1px dotted black;
+}
+
+.imagedescription h2 {
+	position: absolute;
+	width: 500px;
+	float:left;
+	height: 100px;
+	margin: 10px;
+	padding: 20px 0px 0px 0px;
+	border: 5px solid green;
+
+}

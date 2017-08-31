@@ -1,0 +1,67 @@
+body {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	height: 1200px;
+	border: 1px solid blue;
+}
+
+.navbar {
+	position: fixed;
+	text-align: right;
+	background: lightblue;
+	color: white;
+	font-weight: bold;
+	width: 960px;
+
+}
+
+.navbar ul li {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+
+header {
+	position: relative;
+	height: 100px;
+	margin: 60px 60px 60px 60px;
+	padding: 100px 0px 0px 0px;
+	border: 5px solid green;
+}
+
+.header p {
+	text-align: center;
+}
+
+.frontpage {
+	margin-left: 20px;
+}
+
+.frontpage img {
+	float: left;
+	max-height: 240px;
+}
+
+.headline {
+	position: static;
+	margin-left: 500px;
+	width: 420px;
+	height: 240px;
+	border: 1px dotted black;
+
+}
+
+.headline h2 {
+	text-align: center;
+}
+
+.imagedescription{
+	position: relative;
+	height: 100px;
+	margin: 60px 60px 60px 60px;
+	padding: 800px 0px 0px 0px;
+	border: 5px solid green;
+
+}

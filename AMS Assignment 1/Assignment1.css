@@ -1,0 +1,42 @@
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	/* not sure why they're all underligned*/
+	clear: right;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none
+    
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+ul li {
+	font-size: 40px;
+}
+
+.Doug {
+	color:blue;
+}
+
+.sidenav {
+	color: green;
+	float: right;
+}
+
+.sidenav a { 
+	color:green;
+}
+
+.newclass p {
+
+}

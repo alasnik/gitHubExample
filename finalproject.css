@@ -1,0 +1,77 @@
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+header {
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Orienta', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 40px;
+} 
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+
+#firstSection{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	border: solid black	3px;
+	box-sizing: border-box;
+	clear: both;
+
+}
+
+#firstSection,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#secondSection{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	border: solid black	3px;
+	box-sizing: border-box;
+	clear: both;
+}
+
+#secondSection,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+
